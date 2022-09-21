@@ -1,0 +1,23 @@
+#CardID {
+  margin-bottom: 10px;
+  &:hover {
+    background-color: rgb(203, 203, 240);
+    cursor: pointer;
+  }
+}
+
+#CompanyImg{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#CompanyName{
+  background-color: white;
+    border-color: black;
+    color: grey;
+    text-decoration: none;
+    &:hover {
+      background-color: rgb(203, 203, 240);
+      text-decoration: underline;
+      cursor: pointer;
+    }
+}

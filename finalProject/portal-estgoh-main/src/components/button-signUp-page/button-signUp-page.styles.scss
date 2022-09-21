@@ -1,0 +1,19 @@
+.button-container {
+  min-width: 140px;
+  width: auto;
+  height: 40px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  cursor: pointer;
+  border: none;
+
+  &.google-sign-in {
+    background-color: rgb(58, 58, 245);
+    color: white;
+
+    &:hover {
+      background-color: blue;
+      border: none;
+    }
+  }
+}

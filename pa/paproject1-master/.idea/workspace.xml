@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c40be38b-e1ed-4cb9-abec-88877e741c74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pt/ipc/estgoh/loja/LeituraDados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pt/ipc/estgoh/loja/database/GereUtilizador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt/ipc/estgoh/loja/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt/ipc/estgoh/loja/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt/ipc/estgoh/loja/database/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt/ipc/estgoh/loja/database/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt/ipc/estgoh/loja/entities/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt/ipc/estgoh/loja/entities/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt/ipc/estgoh/loja/entities/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt/ipc/estgoh/loja/entities/Funcionario.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YdDXm5H4S0tfKi9RgLrKyCQG1p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/eclipse-workspace/Recurso/src/application/Program.java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="pt.ipc.estgoh.loja.Main" />
+      <module name="Paprojeto1" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c40be38b-e1ed-4cb9-abec-88877e741c74" name="Default Changelist" comment="" />
+      <created>1583263619377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583263619377</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2134" y="258" width="544" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1585117951174">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2134" y="258" width="544" height="562" key="#com.intellij.ide.util.MemberChooser/51.27.1315.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585117951174" />
+    <state x="542" y="43" width="443" height="708" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1583349733486">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="542" y="43" width="443" height="708" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/51.27.1315.741/1366.0.1920.1080@51.27.1315.741" timestamp="1583349733486" />
+    <state x="1867" y="165" width="735" height="513" key="FileChooserDialogImpl" timestamp="1584818994464">
+      <screen x="1280" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1867" y="165" key="FileChooserDialogImpl/51.27.1229.693/1280.0.1920.1080@1280.0.1920.1080" timestamp="1584818994464" />
+    <state x="453" y="140" width="735" height="513" key="FileChooserDialogImpl/51.27.1315.741/1366.0.1920.1080@51.27.1315.741" timestamp="1583349728809" />
+    <state width="1874" height="271" key="GridCell.Tab.0.bottom" timestamp="1585456066718">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="271" key="GridCell.Tab.0.bottom/51.27.1315.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585456066718" />
+    <state width="1269" height="175" key="GridCell.Tab.0.bottom/51.27.1315.741/1366.0.1920.1080@51.27.1315.741" timestamp="1583356603051" />
+    <state width="1874" height="271" key="GridCell.Tab.0.center" timestamp="1585456066717">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="271" key="GridCell.Tab.0.center/51.27.1315.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585456066717" />
+    <state width="1269" height="175" key="GridCell.Tab.0.center/51.27.1315.741/1366.0.1920.1080@51.27.1315.741" timestamp="1583356603051" />
+    <state width="1874" height="271" key="GridCell.Tab.0.left" timestamp="1585456066717">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="271" key="GridCell.Tab.0.left/51.27.1315.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585456066717" />
+    <state width="1269" height="175" key="GridCell.Tab.0.left/51.27.1315.741/1366.0.1920.1080@51.27.1315.741" timestamp="1583356603050" />
+    <state width="1874" height="271" key="GridCell.Tab.0.right" timestamp="1585456066718">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="271" key="GridCell.Tab.0.right/51.27.1315.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585456066718" />
+    <state width="1269" height="175" key="GridCell.Tab.0.right/51.27.1315.741/1366.0.1920.1080@51.27.1315.741" timestamp="1583356603051" />
+    <state x="197" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1583349764678">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="197" y="27" width="1024" height="741" key="SettingsEditor/51.27.1315.741/1366.0.1920.1080@51.27.1315.741" timestamp="1583349764678" />
+    <state x="186" y="64" width="1176" height="662" maximized="true" key="dock-window-1" timestamp="1585295638719">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="-24" y="27" width="957" height="651" maximized="true" key="dock-window-1/51.27.1229.693/1280.0.1920.1080@1280.0.1920.1080" timestamp="1584829833071" />
+    <state x="1642" y="69" width="957" height="651" maximized="true" key="dock-window-1/51.27.1229.693/1280.0.1920.1080@51.27.1229.693" timestamp="1584817884622" />
+    <state x="186" y="64" width="1176" height="662" maximized="true" key="dock-window-1/51.27.1315.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585295638719" />
+    <state x="51" y="27" width="1315" height="741" maximized="true" key="dock-window-1/51.27.1315.741/1366.0.1920.1080@51.27.1315.741" timestamp="1585117435947" />
+    <state x="51" y="27" width="1305" height="741" key="new project wizard" timestamp="1583348521671">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="51" y="27" key="new project wizard/51.27.1315.741/1366.0.1920.1080@51.27.1315.741" timestamp="1583348521671" />
+    <state x="51" y="27" width="1305" height="741" key="new project wizard/51.27.1315.741@51.27.1315.741" timestamp="1583319587426" />
+    <state x="1989" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1585117846549">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1989" y="237" width="672" height="678" key="search.everywhere.popup/51.27.1315.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585117846549" />
+  </component>
+</project>

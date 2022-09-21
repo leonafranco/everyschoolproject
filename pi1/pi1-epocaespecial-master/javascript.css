@@ -1,0 +1,58 @@
+:root {
+    --primary :#333333;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 3px 10px rgba(104, 104, 104, 0.8);
+}
+
+
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--primary);
+}
+
+body {
+    background: #ccc;
+    margin: 30px 50px;
+    line-height: 1.4;
+}
+
+h5 {
+    color:#333333;
+    margin: 2;
+    font-size: 1rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.output {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: initial;
+}
+
+.form_secundarios {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr) ;
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    max-width: 800px;
+    border: white;
+}
+
+.form-row {
+    max-width: 500px;
+    margin: 2rem;
+    border: 2px solid white;
+    padding: 2rem;
+}

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/horaPrevista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textViewHoraPrevista"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewHoraPrevista"/>
+
+    <TextView
+        android:id="@+id/textViewHoraPrevista"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="25dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/horaPrevista"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewMomentoRefeicao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelRefeicao"
+        app:layout_constraintEnd_toEndOf="@+id/horaPrevista"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewRefeicao2"/>
+
+    <TextView
+        android:id="@+id/textViewRefeicao2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="@+id/textViewHoraPrevista"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHoraPrevista"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupMode"
+        android:layout_width="113dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewRefeicao2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRefeicao2">
+
+        <RadioButton
+            android:id="@+id/radioButtonConsume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/labelRadioRealizada" />
+
+        <RadioButton
+            android:id="@+id/radioButtonNotConsume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/labelRadioNaoRealizada" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewHoraRealizada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/labelHoraRealizada"
+        app:layout_constraintEnd_toEndOf="@+id/horaPrevista"
+        app:layout_constraintBottom_toBottomOf="@id/editTextHoraRealizada"/>
+
+    <EditText
+        android:id="@+id/editTextHoraRealizada"
+        android:layout_width="200dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="time"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/radioGroupMode"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupMode" />
+
+    <TextView
+        android:id="@+id/textViewObservacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/labelObservacao"
+        app:layout_constraintEnd_toEndOf="@+id/textViewHoraRealizada"
+        app:layout_constraintTop_toTopOf="@id/editTextObservacao" />
+
+    <EditText
+        android:id="@+id/editTextObservacao"
+        android:layout_width="200dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="25dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toEndOf="@+id/textViewObservacao"
+        app:layout_constraintTop_toBottomOf="@+id/editTextHoraRealizada" />
+
+    <Button
+        android:id="@+id/buttonCancelar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/buttonCancelar"
+        android:layout_marginRight="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonGravar2"
+        app:layout_constraintStart_toStartOf="@+id/editTextObservacao"
+        app:layout_constraintTop_toBottomOf="@+id/editTextObservacao" />
+    <Button
+        android:id="@+id/buttonGravar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/buttonGravar"
+        app:layout_constraintEnd_toEndOf="@+id/editTextObservacao"
+        app:layout_constraintStart_toEndOf="@+id/buttonCancelar2"
+        app:layout_constraintTop_toBottomOf="@id/editTextObservacao" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

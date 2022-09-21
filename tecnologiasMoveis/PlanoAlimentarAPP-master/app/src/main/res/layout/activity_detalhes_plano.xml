@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetalhesPlano">
+
+    <TextView
+        android:id="@+id/textViewHoraRefeicao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="38dp"
+        android:text="@string/labelHoraRefeicao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTimeHora"
+        android:layout_width="0dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="46dp"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewHoraRefeicao"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewRefeicao1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="42dp"
+        android:text="@string/labelRefeicao"
+        app:layout_constraintEnd_toEndOf="@+id/textViewHoraRefeicao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHoraRefeicao" />
+
+    <EditText
+        android:id="@+id/editTextTextRefeicao"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="46dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTimeHora"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTimeHora" />
+
+    <TextView
+        android:id="@+id/textViewInformacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:text="@string/labelInformacao"
+        app:layout_constraintEnd_toEndOf="@+id/textViewRefeicao1"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRefeicao1" />
+
+    <EditText
+        android:id="@+id/editTextTextInformacao"
+        android:layout_width="0dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="46dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextRefeicao"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextRefeicao" />
+
+    <Button
+        android:id="@+id/buttonRemover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonRemover"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonGravar"
+        app:layout_constraintEnd_toStartOf="@+id/buttonGravar"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextInformacao"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextInformacao"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/buttonGravar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/buttonGravar"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextInformacao"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/buttonRemover"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextInformacao" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

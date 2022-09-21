@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tp1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tp1">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListaPlanoAlimentar"
+            android:label="Plano Alimentar"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="com.example.tp1.ListaPlanoAlimentar" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CriarPlano"
+                  android:label="Criar Plano">
+            <intent-filter>
+                <action android:name="com.example.tp1.CriarPlano"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DetalhesPlano"
+            android:label="Refeição">
+            <intent-filter>
+                <action android:name="com.example.tp1.DetalhesPlano"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Definicoes"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:label="Definições">
+            <intent-filter>
+                <action android:name="com.example.tp1.Definicoes"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ConfirmarRefeicao"
+            android:label="Confirmar Refeição">
+            <intent-filter>
+                <action android:name="com.example.tp1.ConfirmarRefeicao"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ListarHistoricoPlano"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:label="Histórico Plano Alimentar">
+            <intent-filter>
+                <action android:name="com.example.tp1.ListarHistoricoPlano"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DetalhesHistoricoPlano"
+            android:label="Detalhes Histórico Plano">
+            <intent-filter>
+                <action android:name="com.example.tp1.DetalhesHistoricoPlano"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

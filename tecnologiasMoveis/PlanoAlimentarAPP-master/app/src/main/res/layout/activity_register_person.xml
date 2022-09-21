@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewNomeDoente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelNomeDoente"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="59dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/editTextNomeDoente"/>
+
+    <EditText
+        android:id="@+id/editTextNomeDoente"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:inputType="text"
+        android:text=""
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="49dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textViewNomeDoente"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/textViewIntervaloRefeicao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/labelIntervaloTempo"
+        app:layout_constraintTop_toBottomOf="@id/textViewNomeDoente"
+        app:layout_constraintEnd_toEndOf="@id/textViewNomeDoente" />
+
+    <EditText
+        android:id="@+id/editTextIntervalo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginStart="8dp"
+        android:inputType="time"
+        android:text=""
+        app:layout_constraintTop_toBottomOf="@id/editTextNomeDoente"
+        app:layout_constraintStart_toEndOf="@id/textViewIntervaloRefeicao"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/buttonSummit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="49dp"
+        android:text="@string/buttonGravar"
+        app:layout_constraintTop_toBottomOf="@id/editTextIntervalo"
+        app:layout_constraintEnd_toEndOf="@id/editTextIntervalo"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

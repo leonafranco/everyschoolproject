@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewHoraRefeicao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/labelDetalhesHoraPrevista"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextHoraPrevista"
+        android:layout_width="0dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="46dp"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewHoraRefeicao"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewRefeicao1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/labelDetalhesRefeicao"
+        app:layout_constraintEnd_toEndOf="@+id/textViewHoraRefeicao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHoraRefeicao" />
+
+    <TextView
+        android:id="@+id/editTextTextRefeicao"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="46dp"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextHoraPrevista"
+        app:layout_constraintTop_toBottomOf="@+id/editTextHoraPrevista" />
+
+    <TextView
+        android:id="@+id/textViewInformacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/labelDetalhesInformacao"
+        app:layout_constraintEnd_toEndOf="@+id/textViewRefeicao1"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRefeicao1" />
+
+    <TextView
+        android:id="@+id/editTextTextInformacao"
+        android:layout_width="0dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="46dp"
+        android:ems="10"
+        android:gravity="start|top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextRefeicao"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextRefeicao" />
+
+    <TextView
+        android:id="@+id/textViewHoraPrevista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="99dp"
+        android:text="@string/labelDetalhesHoraRealizada"
+        app:layout_constraintEnd_toEndOf="@+id/textViewInformacao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInformacao" />
+
+    <TextView
+        android:id="@+id/editTextHoraRealizada1"
+        android:layout_width="0dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="46dp"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextInformacao"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextInformacao" />
+
+    <TextView
+        android:id="@+id/textViewDataRefeicao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/labelDetalhesData"
+        app:layout_constraintEnd_toEndOf="@+id/textViewHoraPrevista"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHoraPrevista" />
+
+    <TextView
+        android:id="@+id/editTextData"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="46dp"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextHoraRealizada1"
+        app:layout_constraintTop_toBottomOf="@+id/editTextHoraRealizada1" />
+
+    <TextView
+        android:id="@+id/textViewDetalhesObservacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/labelDetalhesObservacoes"
+        app:layout_constraintEnd_toEndOf="@+id/textViewDataRefeicao"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDataRefeicao" />
+
+    <TextView
+        android:id="@+id/editTextDetalhesObservacao"
+        android:layout_width="0dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="46dp"
+        android:ems="10"
+        android:gravity="start|top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextData"
+        app:layout_constraintTop_toBottomOf="@+id/editTextData" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

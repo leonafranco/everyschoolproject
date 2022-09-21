@@ -1,0 +1,9 @@
+#Remove-Posts {
+    background-color: white;
+    border-color: white;
+    color: grey;
+    &:hover {
+      background-color: rgb(181, 191, 236);
+      border-color: rgb(181, 191, 236);
+    }
+  }

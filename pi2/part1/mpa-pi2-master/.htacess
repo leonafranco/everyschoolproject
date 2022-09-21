@@ -1,0 +1,9 @@
+<!-- # Apache Rewrite Rules
+ <IfModule mod_rewrite.c>
+ RewriteEngine on
+ RewriteRule ^src/View/(.+)$ /$1 [R=301,L]
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteRule (.+) /src/View/$1 [END]
+  # End of Apache Rewrite Rules
+ </IfModule> -->

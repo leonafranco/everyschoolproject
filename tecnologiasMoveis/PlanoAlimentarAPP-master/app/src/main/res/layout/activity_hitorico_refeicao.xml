@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonAnterior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/labelButtonAnterior"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/divider"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/textViewDateHistory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/buttonAnterior"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/divider"
+        app:layout_constraintEnd_toStartOf="@id/buttonProximo"/>
+
+    <Button
+        android:id="@+id/buttonProximo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/labelButtonProximo"
+        app:layout_constraintBottom_toTopOf="@id/divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="50dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/divider1"/>
+
+    <TextView
+        android:id="@+id/textViewHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/labelListaHora"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/divider"
+        app:layout_constraintBottom_toTopOf="@id/divider1"/>
+
+    <TextView
+        android:id="@+id/textViewRefeicao"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/labelListaRefeicao"
+        app:layout_constraintStart_toEndOf="@+id/textViewHora"
+        app:layout_constraintTop_toTopOf="@id/divider"
+        app:layout_constraintBottom_toTopOf="@id/divider1"/>
+
+    <TextView
+        android:id="@+id/textViewRealizacao"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/labelHoraRealizacao"
+        app:layout_constraintTop_toTopOf="@id/divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/divider1"/>
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="36dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintTop_toTopOf="@id/divider"/>
+
+    <ListView
+        android:id="@+id/listViewHitoricoRefeicoes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider1"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
